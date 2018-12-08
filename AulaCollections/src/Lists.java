@@ -21,7 +21,7 @@ public class Lists {
 			linkedList.add(random.nextInt());
 		}
 		//Vencedor: ArrayList
-		for(int i = 0; i<1000;i++) {
+		for(int i = 0; i<10;i++) {
 			int posicaoAleatoria = random.nextInt(1000);
 			System.out.println(arrayList.get(posicaoAleatoria));
 			System.out.println(linkedList.get(posicaoAleatoria));
