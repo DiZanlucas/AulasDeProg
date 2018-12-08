@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Collections {
 	public static void metodoEstranho(Collection<Integer> colecao) {
 		Iterator<Integer> iterator = colecao.iterator();
-		Iterator<Integer> iterador2 = colecao.iterador();
+		Iterator<Integer> iterador2 = colecao.iterator();
 		
 		//iterador
 		while(iterator.hasNext()) {
